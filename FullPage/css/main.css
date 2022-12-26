@@ -1,0 +1,91 @@
+.sec0 {
+    background: url(../../images/dmbg.jpg) 
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.intro {
+    color: papayawhip;
+    font-size: 35px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.pizzaFace {
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+.sl1 {
+    background: url(../../images/lightblueskybg-mobile.jpeg) 
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.sec1 {
+    background: url(../../images/darkblueskybg.jpeg) 
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slide0text {
+    text-align: center;
+    font-family: "Bombing";
+    font-size: 100px;
+    color:darkgoldenrod;
+    padding: 10px;
+}
+
+.scrollright {
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    color: oldlace;
+}
+
+
+.mario {
+    height:55%;
+    width: 30%;
+    text-align: left;
+    padding-left: 10%;
+    /* margin-left: 60px; */
+}
+
+
+.mario:hover {
+    height: 70%;
+    width: 50%;
+    transition: ease-in-out;
+}
+
+.mariotitle {
+    font-family: "Chlorinap";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.mariotitle a {
+    text-decoration: none;
+    font-size: 50px;
+    color: goldenrod;
+}
+
+.mariotitle:hover {
+    transform: scale(1.2);
+}

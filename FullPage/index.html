@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RyanMayCode</title>
+    <link rel="shortcut icon" href="/Favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.css" integrity="sha512-FKlWnaJrtBEqH+gNy8kvp+/61S+8iOKb5tG+EKCQ3Fc3iUYr9MvnywpkZBcuNKrxQxlnZYpNwDgkZ2atX7wVVg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/MaydayMediaLogo.png" type="image/x-icon">
+</head>
+<body> 
+    
+<div id="fullpage">
+    <div class="section sec0 fp-auto-height-responsive"> 
+
+        <div class="intro">
+        <h1>Hi, I'm Ryan.</h1>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+        <h2>A <span id="typed"></span>.</h2>
+    
+        <script type="text/javascript">
+        var typed = new Typed("#typed", {
+            strings: [
+            "Full Stack Developer",
+            "Creator",
+            "Software Engineer",
+            "Philomath",
+            "Musician",
+            "Cynophile"
+            ],
+            backSpeed: 60,
+            typeSpeed: 40,
+            loop: "true",
+        });
+        </script>    
+        </div>
+
+        <div>
+            <img class="pizzaFace" alt="pizzaFace" data-src="../images/eatingPizzaNoBG.png">
+        </div>
+
+    </div>
+
+	<div class="section sec1 fp-auto-height-responsive"> 
+        
+        <div class="slide sl0" data-anchor="MyWork"> 
+            <p class="slide0text">Check out some of my work...</p>
+            <p class="scrollright">Scroll to the right ;)</p>
+        </div>
+
+        <div class="slide sl1">
+            <p class="mariotitle"><a href="https://mayday91.github.io/myproject1game/" alt="mariomemorymatch">Mario Memory Match</a></p> 
+            <img alt="Mario Memory Match" class="mario responsive" data-src="../images/mariomemorymainscreen.jpg">
+        </div>
+
+        <div class="slide sl2">  
+            <div class="taskItTitle"><a href="https://task--it.fly.dev">Task.it</a></div>
+        </div>
+
+        <div class="slide sl3"> Slide 3 
+
+        </div>
+
+        <div class="slide sl4"> Slide 4 
+
+        </div>
+    </div>
+
+	<div class="section sec2 fp-auto-height-responsive"> The Second Section </div>
+
+	<div class="section fp-auto-height-responsive"> The Third Section </div>
+
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js" integrity="sha512-rNf09cQHIWzD8BU37lIb3rInygeWXW2hVqJ7niVtTPXWuVR3aFiph1eFIeDiEQV8J45u0qfp7ng8I3TzJHY4Eg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            scrollHorizontally: true,
+            scrollingSpeed: 300,
+            // Design
+            // fitToSection: true,
+            controlArrows: true,
+            controlArrowsHTML: [
+                '<div class="fp-arrow"></div>', 
+                '<div class="fp-arrow"></div>'
+            ],
+            anchors: []
+                })
+
+    </script>
+
+</body>
+</html>
